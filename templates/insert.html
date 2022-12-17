@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Teste</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li> <a href="/createForm">Inserir Na tabela</a></li>
+        <li><a href="/updateForm">Atualizar</a></li>
+        <li> <a href="/deleteForm">Apagar</a></li>
+          <li>  <a href="/listjsonForm">Mostrar  Json</a></li>
+        <li> <a href="/listForm">Mostrar dados</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<center>
+    <h1><font color="red">Informações</font></h1>
+    <form action="http://127.0.0.1:5000\insert" method="post">
+    <table border="0">
+    <tr>
+     <th>Nome:</th>
+     <td><input type="text" name="t_name" placeholder="required"></td>
+    </tr>
+    <tr>
+     <th>Latitude:</th>
+     <td><input type="text" name="t_latitude" placeholder="required"></td>
+    </tr> 
+    <tr>
+     <th>Longitude:</th>
+     <td><input type="text" name="t_longitude" placeholder="required"></td>
+    </tr>
+    <tr>
+    <th><input type="submit" value="Insert"></th>
+    <td><input type="reset" value="Reset"></td>
+    </tr
+</table>
+    	
+
+    </form>	
+ 
+
+ </center>
+</body>
+</html>

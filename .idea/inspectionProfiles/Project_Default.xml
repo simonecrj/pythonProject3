@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="crudcompleto.tutorials.serializers.*" />
+          <option value="crudcompleto.crudcompleto.urls.*" />
+          <option value="crudcompleto.tutorials.urls.*" />
+          <option value="django.core.urlresolvers" />
+          <option value="testecrud.tutorials.views.*" />
+          <option value="teste.djangoCrudExample.crudapp.views.post" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
